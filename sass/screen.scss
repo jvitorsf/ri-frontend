@@ -1,0 +1,85 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+@import "_helpers";
+
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Rajdhani', sans-serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+body{
+	
+	#loading{
+		position: absolute;
+		top: 0 ;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		// background: black;
+		// opacity: 0.5;
+
+		img{
+			position: relative;
+			top: 100px;
+			left: 47%;
+		}
+
+	}
+
+	padding: 10px;
+	background: #1A8FB4;
+	color: whitesmoke;
+
+	.title{
+		font-family: 'Raleway', sans-serif;
+		font-size: 48px;
+		margin-top: 20px;
+	}
+	
+	.resultado{
+		position: relative;
+		top: 180px;
+		font-family: 'Raleway', sans-serif;
+
+
+		a{
+			color: whitesmoke;
+			font-family: 'Raleway', sans-serif;
+		}
+
+	}
+
+	.wrapper{
+		position: relative;
+		top: 100px;
+		
+		.header-text{
+			margin: 0 auto;
+			display: table;
+			font-family: 'Raleway', sans-serif;
+			font-size: 36px;
+		}
+
+		form{
+			position: relative;
+			top: 20px;
+
+		.buscar{
+			position: relative;
+			top: 20px;
+			display: table;
+			margin: 0 auto;
+			padding: 10px;
+			font-size: 20px;
+			font-family: 'Raleway', sans-serif;
+		}
+	}
+	}
+
+	
+}

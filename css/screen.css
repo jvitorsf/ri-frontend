@@ -1,0 +1,74 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/_helpers.scss */
+.center {
+  display: table;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  padding: 10px;
+  background: #1A8FB4;
+  color: whitesmoke;
+}
+/* line 17, ../sass/screen.scss */
+body #loading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 26, ../sass/screen.scss */
+body #loading img {
+  position: relative;
+  top: 100px;
+  left: 47%;
+}
+/* line 38, ../sass/screen.scss */
+body .title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  margin-top: 20px;
+}
+/* line 44, ../sass/screen.scss */
+body .resultado {
+  position: relative;
+  top: 180px;
+  font-family: 'Raleway', sans-serif;
+}
+/* line 50, ../sass/screen.scss */
+body .resultado a {
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+}
+/* line 57, ../sass/screen.scss */
+body .wrapper {
+  position: relative;
+  top: 100px;
+}
+/* line 61, ../sass/screen.scss */
+body .wrapper .header-text {
+  margin: 0 auto;
+  display: table;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+}
+/* line 68, ../sass/screen.scss */
+body .wrapper form {
+  position: relative;
+  top: 20px;
+}
+/* line 72, ../sass/screen.scss */
+body .wrapper form .buscar {
+  position: relative;
+  top: 20px;
+  display: table;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
